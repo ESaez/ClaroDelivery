@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.autentia.clarodelivery.FormularioActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:title="Formulario de ingreso"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@android:color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/claro" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:ems="10"
+                    android:inputType="number">
+
+                    <EditText
+                        android:id="@+id/et_rut_usuario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0,1,2,3,4,5,6,7,8,9,-,K,k"
+                        android:hint="*Rut cliente"
+                        android:maxLength="10"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:textColor="@color/colorPrimary_claro"
+                        android:textColorHint="@color/colorPrimaryDark_claro" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/et_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="*E-mail"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="30"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:textColor="@color/colorPrimary_claro"
+                        android:textColorHint="@color/colorPrimaryDark_claro" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/et_numero_servicio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="*N° de solicitud de servicio (SSTM)"
+                        android:inputType="number"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:textColor="@color/colorPrimary_claro"
+                        android:textColorHint="@color/colorPrimaryDark_claro" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/et_numero_contrato"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="N° de contrato de arriendo"
+                        android:inputType="number"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:textColor="@color/colorPrimary_claro"
+                        android:textColorHint="@color/colorPrimaryDark_claro" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/bt_verifica_identidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorPrimary_claro"
+                    android:text="Verificar Identidad" />
+
+                <Button
+                    android:id="@+id/bt_cancelar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/bt_verifica_identidad"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary_claro"
+                    android:text="Cancelar" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

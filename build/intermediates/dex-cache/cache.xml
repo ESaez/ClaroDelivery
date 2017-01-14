@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_38dfecdcf4b82f523901cced257a3ea8d10829fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_98b591b513397f9426f05d5a01477a48ade4a743.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_e4c7d8eec4d7a02a4a7f6ed56544b9c8146fe00c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_eb5de336978caffc0fab295623e2407bf72d1f3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_2f10f1c40a8661ecc31ca9a6baf5f27267da53a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.vicmikhailau\MaskedEditText\1.1.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5bc70afe7b68e2088f309a805c93f7200ae2a207">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.vicmikhailau-MaskedEditText-1.1.2_f1d394451aee07c1311b7a7fc9e178909a90ec45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_311cf299b5c75cec41961d01f4a89f9ad871c4a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_0081ba94e3ee9f4f022c755aad169e16f60068e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_19acb779bd46896d7a9af47014f507dd6773d455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_6650a4f7117c58dcd52b4a0600dee91a85e52c43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_634e798b5d905317910f07fc7ab92a8e3fdd9b1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_b4fac4ba7838b3fc3cb8b3e66421f0890fedb5a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_c890e85329eab02478bcd48a0c526ec1e14e869b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_0f4d0ec344dce79d2a137da9f2cfc9d586fe0e9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_9b30d7a6f9bbb072660a5f7cdf2ebeffc385c025.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_080cee0066f123a4c80e212168da8661fc563407.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_c4f6783001700f46c563f669d6ad6a5b97862e2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_3551fb260b1dc60e06af9823118162efc9c68b88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\JOKO\Desktop\Autentia\ClaroDelivery\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_6c9659ad876272c00abcae9989b0e754d9433e99.jar" />
+    </item>
+
+</items>

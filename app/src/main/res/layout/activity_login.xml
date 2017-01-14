@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.autentia.clarodelivery.LoginActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary_claro"
+        app:titleTextColor="@android:color/white" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt_iniciar_sesion"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:inputType="number">
+
+        <EditText
+            android:id="@+id/et_rut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0,1,2,3,4,5,6,7,8,9,-"
+            android:hint="Rut funcionario"
+            android:inputType="text"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColor="@color/colorPrimary_claro"
+            android:textColorHint="@color/colorPrimaryDark_claro" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/claro"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimaryDark_claro" />
+
+    <Button
+        android:id="@+id/bt_iniciar_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_salir"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorPrimary_claro"
+        android:text="Iniciar sesion" />
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorPrimary_claro"
+        android:text="Salir" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/input1"
+        android:layout_below="@+id/input1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="16dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Nombre completo"
+            android:maxLength="70"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColor="@color/colorPrimary_claro"
+            android:textColorHint="@color/colorPrimaryDark_claro" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+</RelativeLayout>

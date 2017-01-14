@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ResultActivity">
+    <item
+        android:id="@+id/accion_guardar_evidencia"
+        android:orderInCategory="100"
+        android:title="@string/accion_guardar"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_camera" />
+</menu>

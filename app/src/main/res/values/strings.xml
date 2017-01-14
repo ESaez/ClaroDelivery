@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Claro Biometria</string>
+    <string name="title_activity_formulario">Formulario de Ingreso</string>
+    <string name="resumen_negocio">Resumen Verificación de Identidad</string>
+    <string name="accion_guardar">Guardar evidencia</string>
+    <string name="title_activity_tst">tst</string>
+</resources>
